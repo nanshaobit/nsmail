@@ -1,0 +1,7 @@
+Addr: ":25"
+Domain: "localhost"
+ReadTimeout: 10
+WriteTimeout: 10
+MaxMessageBytes: 1024*1024
+MaxRecipients: 50
+AllowInsecureAuth: true

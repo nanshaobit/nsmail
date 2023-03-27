@@ -73,7 +73,7 @@ func main() {
 	be := &Backend{}
 
 	s := smtp.NewServer(be)
-
+	// TODO: read config from file.
 	s.Addr = ":25"
 	s.Domain = "localhost"
 	s.ReadTimeout = 10 * time.Second
